@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avcis"
+version = "0.1.0"
+description = "Local-first personal voice assistant for Windows and Android"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
