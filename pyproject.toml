@@ -9,6 +9,12 @@ description = "Local-first personal voice assistant for Windows and Android"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = []
+[project.optional-dependencies]
+voice = [
+    "faster-whisper>=1.2.1,<2.0",
+    "sounddevice>=0.5.6,<1.0",
+    "av>=11,<19",
+]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

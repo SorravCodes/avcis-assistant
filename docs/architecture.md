@@ -1,4 +1,4 @@
-﻿# AVCIS Architecture
+# AVCIS Architecture
 
 ## Objective
 Build a local-first, internet-enabled personal assistant for Windows 11 and Android.
